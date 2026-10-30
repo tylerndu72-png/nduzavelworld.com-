@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDÛZAVÉL | Apps, AI & Gaming</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#080b14;color:white;font-family:Arial,sans-serif;line-height:1.6}
+header{background:#101522;padding:20px;text-align:center;border-bottom:2px solid #d6a83e}
+.logo{color:#e5b94f;font-size:27px;font-weight:bold}
+nav{display:flex;justify-content:center;flex-wrap:wrap;gap:15px;padding:15px;background:#111827}
+nav a{color:white;text-decoration:none;font-size:14px}
+nav a:hover{color:#e5b94f}
+section{padding:45px 20px;max-width:1000px;margin:auto;border-bottom:1px solid #263044}
+h1,h2{color:#e5b94f;margin-bottom:15px}
+.hero{text-align:center;padding:80px 20px}
+.hero h1{font-size:clamp(28px,5vw,38px)}
+p{color:#cbd5e1;margin-bottom:15px}
+.card{background:#151d2c;border:1px solid #354157;padding:20px;margin:12px 0;border-radius:12px}
+input,textarea,button{width:100%;padding:13px;margin:8px 0;border-radius:7px;border:none}
+input,textarea{background:#202b3d;color:white}
+button{background:#d6a83e;color:#080b14;font-weight:bold;cursor:pointer}
+button:hover{background:#f4ca68}
+footer{text-align:center;padding:30px;background:#101522;color:#e5b94f}
+a button{margin-top:10px}
+</style>
+</head>
+<body>
+<header><div class="logo">NDÛZAVÉL</div><p>Apps • Artificial Intelligence • Gaming</p></header>
+<nav>
+<a href="#home">Home</a><a href="#about">About</a><a href="#owner">Owner</a>
+<a href="#accounts">Accounts</a><a href="#chat">Chat</a><a href="#vault">Vault</a>
+<a href="#studio">Studio</a><a href="#members">Members</a><a href="#contact">Contact</a><a href="#more">More</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>Building The Future With Apps, AI &amp; Imagination</h1>
+<p>Welcome to NDÛZAVÉL, a world of technology, creativity, gaming and digital innovation.</p>
+<a href="#studio"><button>Explore Projects</button></a>
+<a href="#accounts"><button>Join Our Community</button></a>
+</section>
+
+<section id="about"><h2>2. About Me</h2><div class="card">
+<h3>Mr. Tyler Ndu</h3><p>Founder of NDÛZAVÉL.</p>
+<p>I am passionate about technology, artificial intelligence, app development, game creation and digital innovation.</p>
+<p>My vision is to build innovative digital experiences and create opportunities through technology.</p>
+</div></section>
+
+<section id="owner"><h2>3. Owner Dashboard</h2><div class="card">
+<h3>Website Management</h3><p>Owner controls for managing the website.</p>
+<input type="text" placeholder="Website title"><textarea placeholder="Update website information"></textarea>
+<button type="button">Save Changes</button><button type="button">Manage Projects</button><button type="button">Manage Members</button>
+<p><strong>Demo only:</strong> Connect secure owner authentication and a backend before using these controls.</p>
+</div></section>
+
+<section id="accounts"><h2>4. Create An Account</h2><div class="card">
+<h3>Join NDÛZAVÉL</h3><form>
+<input type="text" placeholder="Full Name" required><input type="email" placeholder="Email Address" required>
+<input type="password" placeholder="Create Password" required><button type="submit">Register</button>
+</form>
+<h3>Member Login</h3><form>
+<input type="email" placeholder="Your Email"><input type="password" placeholder="Your Password">
+<button type="submit">Login</button></form>
+<p>Demo forms only; secure registration and login require backend authentication.</p>
+</div></section>
+
+<section id="chat"><h2>5. Community Chat</h2><div class="card">
+<h3>NDÛZAVÉL Community</h3><div id="messages"><p>Welcome to our community chat demo!</p></div>
+<input type="text" id="message" placeholder="Write a message...">
+<button type="button" onclick="sendMessage()">Send Message</button>
+<p>Messages in this demo are visible only in this browser session. Real-time community chat requires a backend.</p>
+</div></section>
+
+<section id="vault"><h2>6. My Digital Vault</h2><div class="card">
+<h3>Important Information</h3><input type="text" placeholder="Document or Note Title">
+<textarea placeholder="Write your notes or project ideas..."></textarea><input type="file">
+<button type="button">Save Information</button>
+<p>Private storage requires secure owner authentication and backend storage. Do not enter sensitive information into this demo.</p>
+</div></section>
+
+<section id="studio"><h2>7. NDÛZAVÉL Studio</h2>
+<div class="card"><h3>Artificial Intelligence</h3><p>Discover AI tools and intelligent applications.</p></div>
+<div class="card"><h3>Game Development</h3><p>Explore exciting games created by NDÛZAVÉL.</p></div>
+<div class="card"><h3>App Development</h3><p>Discover innovative applications and digital products.</p></div>
+<div class="card"><h3>Website Development</h3><p>Explore modern websites and creative projects.</p></div>
+</section>
+
+<section id="members"><h2>8. Member Dashboard</h2><div class="card">
+<h3>Welcome, Member!</h3><p>Manage your profile, messages, saved projects and personal information.</p>
+<button type="button">Edit Profile</button><button type="button">My Projects</button>
+<button type="button">My Messages</button><button type="button">Account Settings</button>
+</div></section>
+
+<section id="contact"><h2>9. Contact Mr. Tyler Ndu</h2><div class="card">
+<p>Email: <a href="mailto:tylerndu72@gmail.com" style="color:#e5b94f">tylerndu72@gmail.com</a></p>
+<form action="mailto:tylerndu72@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" placeholder="Your Name"><input type="email" name="email" placeholder="Your Email">
+<textarea name="message" placeholder="Your Message"></textarea><button type="submit">Send Message</button>
+</form>
+</div></section>
+
+<section id="more"><h2>10. More Features</h2>
+<div class="card"><h3>Latest Updates</h3><p>Read our latest news and announcements.</p></div>
+<div class="card"><h3>Technology Blog</h3><p>Explore tutorials, technology articles and ideas.</p></div>
+<div class="card"><h3>Help &amp; Support</h3><p>Get assistance and learn more about our platform.</p></div>
+<div class="card"><h3>Privacy &amp; Security</h3><p>Read our privacy policy and community guidelines.</p></div>
+</section>
+
+<footer><h3>NDÛZAVÉL</h3><p>Created by Mr. Tyler Ndu</p><p>tylerndu72@gmail.com</p><p>© 2026 NDÛZAVÉL. All Rights Reserved.</p></footer>
+<script>
+function sendMessage(){
+ const input=document.getElementById("message");
+ const messages=document.getElementById("messages");
+ if(!input.value.trim()) return;
+ const item=document.createElement("p");
+ item.textContent="You: "+input.value;
+ messages.appendChild(item);
+ input.value="";
+}
+</script>
+</body>
+</html>
